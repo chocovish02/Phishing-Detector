@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing URL Detection Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Phishing URL Detection Result</h1>
+        <p><strong>URL:</strong> {{ url }}</p>
+        <p><strong>Result:</strong> {{ result }}</p>
+        <a href="/" class="btn">Analyze another URL</a>
+    </div>
+</body>
+</html>

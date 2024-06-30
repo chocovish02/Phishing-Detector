@@ -1,0 +1,11 @@
+URL,Label,Length,Domain Age,features
+http://legitimate.com,0,18,5,"{'URL_length': 21, 'num_digits': 0, 'num_special_chars': 4, 'has_http': 1, 'has_https': 0, 'num_dots': 1, 'num_hyphens': 0}"
+http://phishing.com,1,16,1,"{'URL_length': 19, 'num_digits': 0, 'num_special_chars': 4, 'has_http': 1, 'has_https': 0, 'num_dots': 1, 'num_hyphens': 0}"
+https://anotherlegit.com,0,21,3,"{'URL_length': 24, 'num_digits': 0, 'num_special_chars': 4, 'has_http': 1, 'has_https': 1, 'num_dots': 1, 'num_hyphens': 0}"
+https://fakebank.com,1,14,1,"{'URL_length': 20, 'num_digits': 0, 'num_special_chars': 4, 'has_http': 1, 'has_https': 1, 'num_dots': 1, 'num_hyphens': 0}"
+http://secure-login.com-update.account.verification.com,1,49,1,"{'URL_length': 55, 'num_digits': 0, 'num_special_chars': 9, 'has_http': 1, 'has_https': 0, 'num_dots': 4, 'num_hyphens': 2}"
+http://bank-verify.secure-login.com/login,1,37,1,"{'URL_length': 41, 'num_digits': 0, 'num_special_chars': 8, 'has_http': 1, 'has_https': 0, 'num_dots': 2, 'num_hyphens': 2}"
+http://paypal.com.login.account-verification.com,1,37,1,"{'URL_length': 48, 'num_digits': 0, 'num_special_chars': 8, 'has_http': 1, 'has_https': 0, 'num_dots': 4, 'num_hyphens': 1}"
+http://secure-facebook.com/login,1,28,1,"{'URL_length': 32, 'num_digits': 0, 'num_special_chars': 6, 'has_http': 1, 'has_https': 0, 'num_dots': 1, 'num_hyphens': 1}"
+http://example-legit.com,0,21,2,"{'URL_length': 24, 'num_digits': 0, 'num_special_chars': 5, 'has_http': 1, 'has_https': 0, 'num_dots': 1, 'num_hyphens': 1}"
+http://example-phish.com,1,19,1,"{'URL_length': 24, 'num_digits': 0, 'num_special_chars': 5, 'has_http': 1, 'has_https': 0, 'num_dots': 1, 'num_hyphens': 1}"

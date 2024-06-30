@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phishing URL Detection</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Phishing URL Detection</h1>
+        <form action="/analyze" method="post">
+            <label for="URL">Enter URL:</label>
+            <input type="text" id="URL" name="URL" placeholder="Enter URL here" required>
+            <button type="submit">Analyze</button>
+        </form>
+        <div class="author">
+            <p>©Vishal Kaveri</p>
+        </div>
+    </div>
+</body>
+
+</html>
